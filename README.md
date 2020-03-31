@@ -1,4 +1,4 @@
-<b>Hacker news SSR</b>
+<h1>Hacker news SSR</h1>
 This app demonstrate ssr usin nextjs and react by fetching and rendering hacker news feed. Used, nextJs, react, jest, hooks and styled components to create this app
 
 To start please run 'npm install' to install the node modules
