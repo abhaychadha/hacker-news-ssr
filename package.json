@@ -1,0 +1,43 @@
+{
+  "name": "hacker-news-app",
+  "version": "1.0.0",
+  "description": "replicating hacker news",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "setupFiles": ["./setupTests.js"]
+  },
+  "author": "Abhay Chadha",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "axios": "^0.19.2",
+    "babel-plugin-styled-components": "^1.10.7",
+    "bootstrap": "^4.4.1",
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^25.2.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.2.4"
+  }
+}
