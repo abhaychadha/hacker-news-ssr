@@ -1,5 +1,5 @@
 <h1>Hacker news SSR</h1>
-This app demonstrate ssr usin nextjs and react by fetching and rendering hacker news feed. 
+This app demonstrate ssr usin nextjs and react by fetching and rendering hacker news feed, client side navigation and rehydration is used for pagination. 
 <br/>
 Used, nextJs, react, jest, hooks and styled components to create this app
 <br/>
