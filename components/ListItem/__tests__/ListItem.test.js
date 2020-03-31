@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import { ListItem, StyledArrowUp, StyledCountLabel } from '../ListItem';
+import { ListItem } from '../ListItem';
+import { StyledArrowUp } from '../ListItem.styles';
 import initStories from '../../../static/initStories';
 
 describe('ListItem', () => {

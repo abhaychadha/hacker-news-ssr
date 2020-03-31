@@ -31,7 +31,7 @@ class Index extends Component {
       ? <Error/>
       : <div>
         <Head>
-          <title>My styled page</title>
+          <title>Hacker news</title>
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -39,7 +39,7 @@ class Index extends Component {
             crossOrigin="anonymous"
           />
         </Head>
-        <Navbar bg="light"></Navbar>
+        <Navbar bg="dark"></Navbar>
         <NewsList stories = {stories} />
         <Row className="justify-content-md-center">
           <ButtonGroup>

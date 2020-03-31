@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem List item should render correctly in "debug" mode 1`] = `
+<ListItem__StyledRow
+  index={1}
+>
+  <Col
+    className="text-center"
+    md={2}
+    sm={1}
+    xl={2}
+  >
+    <ListItem__StyledCountLabel>
+      813
+    </ListItem__StyledCountLabel>
+  </Col>
+  <Col
+    md={10}
+    sm={5}
+    xl={10}
+  >
+    <ListItem__StyledCountLabel
+      upvoted={false}
+    >
+      3001
+       
+    </ListItem__StyledCountLabel>
+    <ListItem__StyledArrowUp
+      onClick={[Function]}
+    />
+    <ListItem__StyledTitle>
+      macOS High Sierra: Anyone can login as “root” with empty password
+       
+    </ListItem__StyledTitle>
+    <ListItem__StyledInfo>
+       (twitter.com) by
+       
+    </ListItem__StyledInfo>
+    <ListItem__StyledInfo
+      dark={true}
+    >
+      vladikoff
+    </ListItem__StyledInfo>
+    <ListItem__StyledInfo>
+       2 years
+    </ListItem__StyledInfo>
+  </Col>
+</ListItem__StyledRow>
+`;
