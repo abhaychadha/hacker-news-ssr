@@ -2,6 +2,6 @@
 This app demonstrate ssr usin nextjs and react by fetching and rendering hacker news feed. 
 Used, nextJs, react, jest, hooks and styled components to create this app
 
-To start please run 'npm install' to install the node modules
-to run dev server run 'npm run dev' command.
-to run test cases run 'npm run test' command.
+To start please run '<i>npm install</i>' to install the node modules
+to run dev server run '<i>npm run dev</i>' command.
+to run test cases run '<i>npm run test</i>' command.
